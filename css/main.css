@@ -42,6 +42,7 @@ a {
 .header {
   background-color: #555;
   border-bottom: 3px solid #444;
+  margin-bottom: 10px;
 }
 
 .header h1 {
@@ -64,13 +65,13 @@ a {
 
 .content {
   width: 710px;
-  padding: 0 10 0 0px;
+  padding: 0 10 0 0;
   display: inline-block;
 }
 
 h2 {
   font-size: 24px;
-  padding: 18px 0;
+  padding: 18px 0 0 0;
 }
 
 h3 {
@@ -85,4 +86,9 @@ code {
 pre {
   overflow: auto;
   margin: 10px 0;
+}
+
+.date {
+  font-style: italic;
+  font-size: 80%;
 }
