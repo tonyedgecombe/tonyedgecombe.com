@@ -1,7 +1,6 @@
 ---
 title: Work patterns
 layout: post
-date: 2014-05-14
 ---
 
 No matter how enlightened my previous employers have been there was always an expectation that at a minimum I would be keeping my seat warm all day. I guess I shouldn't have been surprised, measuring the output of programmers is hard, if not impossible, so it shouldn't have been a surprise that my managers fell back to more visible metrics like whether I was in the office.
