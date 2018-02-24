@@ -1,2 +1,1 @@
-jekyll b
-rsync -r --delete _site/ do:/var/www/tonyedgecombe.com/
+rsync -r --delete --exclude=.git/ --exclude=pubish.sh . linode:/var/www/tonyedgecombe.com/
