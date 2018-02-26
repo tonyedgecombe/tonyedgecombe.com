@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/tonyedgecombe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tonyedgecombe.com
+  * I am tonyedgecombe (https://keybase.io/tonyedgecombe) on keybase.
+  * I have a public key with fingerprint 3960 BFFD DD7A 1017 4946  9EA0 61E9 FDB6 7E07 3D26
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e3142dedcafd6cef72f952baf1f55c8cbfb376b5e42f935149e64ed6c6e099530a",
+      "fingerprint": "3960bffddd7a101749469ea061e9fdb67e073d26",
+      "host": "keybase.io",
+      "key_id": "61e9fdb67e073d26",
+      "kid": "0101b0816ff88bf96c4c81a69d69dc370933051a8493b6dbc75794e649bdc1b59dad0a",
+      "uid": "58005de10f0ffb9303fafe7a0ea3aa19",
+      "username": "tonyedgecombe"
+    },
+    "merkle_root": {
+      "ctime": 1519641784,
+      "hash_meta": "3daabcbc53c1e4c0a9a5765c1887ce6b35ee69badb8d372374b70e3f65b35d4e",
+      "seqno": 2153356
+    },
+    "revoke": {
+      "sig_ids": [
+        "dc6d4aebdf6ef4ea04d924ed5065812b979bcfac1de153afbec4dff0f07a0ad40f"
+      ]
+    },
+    "service": {
+      "hostname": "tonyedgecombe.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1519641796,
+  "expire_in": 157680000,
+  "prev": "f9257a4f330cca5590a6a95b30faa3a4e305fd6e14eee3445b5680b1099d5e5e",
+  "seqno": 28,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMP+AnicbVMNbBRFGL2CUKmUImCkFQq34ccQbGdvd3Z3DkixtSnIjwk/goC5zOzM
+tMv1bsvd9hdawNgAkooIlBYqJaSkqSFCFWlDAy0VKSgKlBiEIKASUBAIDQiFEpxt
+JDGGZLOb2Xnzvve9983R+L6euBj855MDZbFTxsV8374q37No09WjyyVi02LJv1wK
+st4Py6Us6gSCFpX8EpB9gCmy6qOMmphTzWRc93EEfQRzmUNoGibhRNE1ApkqNhQo
+q4hpKhNQjQGEoAKwNFHiVjibRfIiVtgRtArSAOGcUqpjGci6ilQNMQw0mSFOiaYz
+oCvUp4mDOXbUPSHEERxlKZYt/olFoFfec/DPdAOZAEPWODcMwpFmqqYhYw1R8ZiK
+DpCiAChjQ0UK0SgxdagjVehGhJoygYhi2qs7v5cOGgBAymTAAecEKUDhmDMdA4YV
+jGXkAqMsEsYhJtCOHS5mNJuZdogwqXSiFGKRYC4LRGzbcR02HcvFyVBGmirrhiq6
+xNGcQIg52DWHYkxMYkLFlJlqAoww1DVoyoahm0wjCmRMQwRTYlBF9ym6SnQREteg
+2KIqE2KibFnYlvw+GSoK1ISCCCuwg8wtHrWyhXdRyb9YoqZGVcwI5RrjqrBfpcgn
+koNAg4bsI0hHxOTYlEXnUMGcMFOlXFgAROeYqoBL75e6xSIFltlL7ob1PBNSxFvI
+yovYjm3auWI7x3Hyon7XHKc4z8UXMhL4lylArDAV8yJOFLBI1LLDwiyB/J9vSJso
+saI8K8IClosQJomYAHDrsAJByZEP6ljlImrTxBAigDWMhEuAY5GbysQIiJFmssoY
+U1QVEigYiCymlkIG/2ukIXTibMEp7AtjJz8icm0/suQFT0ycp3+/Pu5F8sQNGPzs
+evUdkvA0vfulJbB24HvV+4qaPGmTkh7XdF0bnrGxJ3Pb8I54NCN3WnMJ6VyrH9vx
+x2YnYW3Lw62ds3fXjr9++8aa1OX7j5Q07rsVk7oVNiwcW/EoudybVHKqcX3rouoV
+X5ekhLN2prDg4QX22cZXpsuX69KMnPKbv8cuTt40d2Z+4I13a7qairaf3+AN45Hx
+J1d8PPb4T4MqalcfZZvHqHLzDytu1NTa8FxzoHudd3TyjQVN2xaMO701Kxx7mKe2
+Vl1MSD/54Je33pn8WsHdVX3Abcv7gT+n7GdWVjow9z44c/z8l23D2vp1nti1+e7N
+7W3Vj7s/69gz49aoQ7Fbrm+Ze7CyM6H0u+ZvadLb3S8+Obly06zE22Pqi+Gyui7/
+/F3f3NtZPynrgn5nMBr0UWvhysyOacqdHQ8WzV840qru71Tme1uiu+ZNSAydiKkq
+T8rfmP4JutpVsWHkwkJP1Nu+96NP5+2f/fLDOKO9rWXjFH3A/sqMi5O/qHt1dFXG
+mMz1s649zPpcP7d6aX20J0Qb+vf0ZE6d+vjIeM/9fqkk95Qvb0j6pcTMN6d/5dl9
+Ye/w7qUNx2ceHHqlKKlZeXrvSuh0U2F56vTL8dtGjKBpr99JvDJnzl8H141q7Bg1
+bOb8YINW4+1YPPpM1aHfilv+blXNjB/r0349G/dhctoBPj5SOTRte7BjTcWeCeHq
+MvQo53BdzK1jbZf+AQfjCII=
+=EdGz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tonyedgecombe
+
+==================================================================
