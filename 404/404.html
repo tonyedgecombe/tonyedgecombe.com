@@ -7,33 +7,42 @@
             .image-box {
                 background-image: url('/404/404.png');
                 background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+
+                width: 100%;
+                height: 80%;
 
                 display: block;
-                width: 864px;
-                height: 704px;
                 overflow: hidden;
 
                 position: absolute;
-                top: 50%;
                 left: 50%;
-
+                top: 50%;
                 transform: translate(-50%, -50%);
             }
 
-            .image-box p {
+            .text-box {
+                background-color: black;
+
+                display: block;
+                position: absolute;
+                width: 98.1vh;
+                height: 10%;
+
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+
+            .text-box p {
                 color: #A3C9BE;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 2em;
+                font-size: 3vh;
                 text-align: center;
-
-                position: absolute;
-                top: 85%;
-                left: 50%;
-
-                transform: translate(-50%, -50%);
             }
 
-            .image-box p a {
+            .text-box p a {
                 text-decoration: none;
                 font-style: italic;
                 color: #A3C9BE;
@@ -44,9 +53,11 @@
     </head>
     <body>
         <div class="image-box">
-            <p>
-                You seem to be lost, try visiting my <a href="/">home page</a>
-            </p>
+        </div>
+        <div class="text-box">
+                <p>
+                        You seem to be lost, try visiting my <a href="/">home page</a>
+                </p>
         </div>
     </body>
 </html>
