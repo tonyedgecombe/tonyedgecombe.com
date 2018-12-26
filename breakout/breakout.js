@@ -1,3 +1,5 @@
+
+
 (function() {
     const radius = 10;
 
@@ -31,11 +33,26 @@
 
     let lives;
 
+    function getKeyCode(event) {
+        if (event.key !== undefined) {
+            return event.key;
+        } else if (event.keyIdentifier !== undefined) {
+            return event.keyIdentifier;
+        } else {
+            return event.keyCode;
+        }
+    }
+
     window.onkeydown = function (event) {
-        if (event.keyCode === 39) {
-            paddleDirection = 2;
-        } else if (event.keyCode === 37) {
-            paddleDirection = -2;
+        switch (getKeyCode(event)) {
+            case 39:
+            case "ArrowRight":
+                paddleDirection = 2;
+                break;
+            case 37:
+            case "ArrowLeft":
+                paddleDirection = -2;
+                break;
         }
     };
 
@@ -200,13 +217,15 @@
     }
 
     function newGameOnSpaceKey(event) {
-        if (event.keyCode === 32) {
+        let code = getKeyCode(event);
+        if (code === 32 || code === ' ') {
             initialiseGame();
         }
     }
 
     function restartOnSpaceKey(event) {
-        if (event.keyCode === 32) {
+        let code = getKeyCode(event);
+        if (code === 32 || code === ' ') {
             initialiseBall();
             move();
             draw();
